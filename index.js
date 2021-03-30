@@ -1,7 +1,7 @@
-const networkInterfaces = require("os");
+const os = require("os");
 
 const localLog = (port) => {
-	const nets = networkInterfaces();
+	const nets = os.networkInterfaces();
 	const results = Object.create({});
 	for (const name of Object.keys(nets)) {
 		for (const net of nets[name]) {
