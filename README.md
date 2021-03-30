@@ -26,4 +26,7 @@ app.listen(port, () => { // express syntax
 ```
 
 ## Installation
-`$ npm install localhost-logger`
+Install to your devDependencies, so you won't use it on production level.  
+```sh
+$ npm install localhost-logger --save-dev
+```
