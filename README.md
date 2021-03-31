@@ -1,6 +1,6 @@
 # localhost-logger
 
-A package to log your IPv4 address + port to your terminal, so you can debug on other devices like your phone.
+A zero-dependency utility for logging your local network IPv4 address to the console. Useful for testing web apps on other devices.
 
 ## Usage
 **CommonJS syntax**  
