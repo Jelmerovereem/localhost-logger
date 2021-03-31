@@ -9,7 +9,7 @@ const localLog = require("localhost-logger");
 
 const port = 7000; // can be any number
 app.listen(port, () => { // express syntax
-	console.log(localLog(port)); // logs: 192.XXX.X.X:port
+	localLog(port); // logs: 192.XXX.X.X:port
 	console.log(`Server is running on port ${port}`);
 })
 ```
@@ -20,7 +20,7 @@ import localLog from "localhost-logger";
 
 const port = 7000; // can be any number
 app.listen(port, () => { // express syntax
-	console.log(localLog(port)); // logs: 192.XXX.X.X:port
+	localLog(port); // logs: 192.XXX.X.X:port
 	console.log(`Server is running on port ${port}`);
 })
 ```

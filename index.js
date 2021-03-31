@@ -15,7 +15,7 @@ const localLog = (port) => {
 	}
 	let ipstring;
 	results.wifi0 ? ipstring = `${results.wifi0[0]}:${port}` : ipstring = "...IPv4 not available...";
-	return ipstring;
+	return console.log(ipstring);
 }
 
 module.exports = localLog;
